@@ -32,7 +32,7 @@ This project was developed as part of my Master's thesis and aims to build a pre
 - Matplotlib & Seaborn
 - Jupyter Notebook
 - Machine Learning: Logistic Regression, Random Forest, Decision Trees
-- Metrics: Accuracy, Precision, Recall, ROC-AUC, Confusion Matrix
+- Evaluation Metrics: Accuracy, Precision, Recall, ROC-AUC, F1-score, Confusion Matrix
 
 ---
 
@@ -43,3 +43,10 @@ All model evaluation visualizations (ROC Curve, Confusion Matrix, Feature Import
 To view them:
 - Open `Risk_Prediction_Model.ipynb`
 - Scroll to the evaluation and results sections at the end.
+
+## Results Summary
+
+- Best Model: Random Forest Classifier
+- Accuracy: **0.94 (94%)**
+- ROC-AUC Score: **0.84 (84%)**
+

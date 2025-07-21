@@ -21,7 +21,7 @@ This project was developed as part of my Master's thesis and aims to build a pre
 - **Target variable**: Patient survival status (0 = No, 1 = Yes)
 
 - **Note**: The dataset is not included in this repository due to privacy and size constraints.  
-   Please refer to the original data source: [Insert dataset link or name here]
+   Please refer to the original data source: [(https://datadryad.org/dataset/doi:10.5061/dryad.v142481)]
 
 ---
 

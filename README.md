@@ -1,6 +1,10 @@
 ## Patient Survival Risk Prediction Using Machine Learning
 
-This project was developed as part of my Master's thesis and aims to build a predictive model that can assess the risk of patient survival using publicly available clinical data. The model applies supervised machine learning algorithms to classify patients based on survival outcomes, with the goal of supporting early clinical decision-making.
+## Overview
+This project was developed as part of my Master’s thesis in Medical Informatics at Deggendorf Institute of Technology (Germany).
+
+It focuses on analyzing publicly available clinical data and building predictive models to estimate patient survival outcomes.
+The project applies supervised machine-learning techniques to classify patients based on survival, and explores clinical factors associated with outcome patterns.
 
 ---
 
@@ -25,16 +29,26 @@ This project was developed as part of my Master's thesis and aims to build a pre
 
 ---
 
-  ## Tools & Technologies Used
+## Tools & Technologies Used
 
-- Python (Pandas, NumPy)
-- Scikit-learn
-- Matplotlib & Seaborn
-- Jupyter Notebook
-- Machine Learning: Logistic Regression, Random Forest, Decision Trees
-- Evaluation Metrics: Accuracy, Precision, Recall, ROC-AUC, F1-score, Confusion Matrix
+- **Python:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn  
+- **Jupyter Notebook** for development and analysis  
+- **Machine Learning Models:** Logistic Regression, Random Forest, Decision Tree  
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix
 
 ---
+
+## Methodology
+1. **Data Cleaning & Preprocessing**  
+   - Handling missing values, outliers, normalization
+2. **Exploratory Data Analysis (EDA)**  
+   - Distribution plots, correlations, and patterns
+3. **Feature Selection**  
+   - Identifying most influential factors
+4. **Predictive Modeling**  
+   - Survival prediction using classification models
+5. **Visualization & Insights**  
+   - Charts and tables highlighting key findings
 
   ## Visual Outputs
 
@@ -44,7 +58,7 @@ To view them:
 - Open `Risk_Prediction_Model.ipynb`
 - Scroll to the evaluation and results sections at the end.
 
-## Results Summary
+## Model Comparison & Key Results
 
 - Best Model: Random Forest Classifier
 - Accuracy: **0.94 (94%)**

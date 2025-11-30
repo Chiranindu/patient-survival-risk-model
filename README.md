@@ -50,17 +50,37 @@ The project applies supervised machine-learning techniques to classify patients 
 5. **Visualization & Insights**  
    - Charts and tables highlighting key findings
 
-  ## Visual Outputs
+## Visual Outputs
 
-All model evaluation visualizations (ROC Curve, Confusion Matrix, Feature Importance, etc.) are displayed directly in the Jupyter Notebook.
+The project includes several visualizations to evaluate model performance and compare algorithms.  
+Below are key outputs from the analysis:
 
-To view them:
-- Open `Risk_Prediction_Model.ipynb`
-- Scroll to the evaluation and results sections at the end.
+### 🔹 AUC-ROC Curve
+![ROC Curve](images/AUC-ROC%20curve.png)
 
-## Model Comparison & Key Results
+### 🔹 Model Accuracy
+![Model Accuracy](images/Accuracy.png)
 
-- Best Model: Random Forest Classifier
-- Accuracy: **0.94 (94%)**
-- ROC-AUC Score: **0.84 (84%)**
+### 🔹 Confusion Matrix (Random Forest)
+![Confusion Matrix](images/confusion_matrix_rf.png)
 
+### 🔹 Model Comparison (Multiple Algorithms)
+![Model Comparison](images/model_comparison.png)
+
+---
+
+## Results Summary
+
+- **Best Model:** Random Forest Classifier  
+- **Accuracy:** 0.94 (94%)  
+- **ROC-AUC Score:** 0.84 (84%)  
+- The model shows strong performance, and Random Forest outperforms other tried algorithms.
+
+---
+
+## View Full Analysis
+
+To see the complete workflow, EDA, preprocessing, and evaluation:
+
+1. Open the notebook: `Risk_Prediction_Model.ipynb`
+2. Scroll to the evaluation and results sections.
